@@ -7,6 +7,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+console.log("Hello World..")
+
 const users = [];
 
 function checksExistsUserAccount(request, response, next) {
